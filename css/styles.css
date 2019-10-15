@@ -1,8 +1,11 @@
 .navigation {
+  position: fixed;
+  top: 0px;
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
   border-bottom: 1px solid #ddd;
+  background-color: #000000;
 }
 
 .navigationColumn {
@@ -33,7 +36,8 @@ a {
 }
 
 body {
-  background-color: darkslategray
+  background-color: darkslategray;
+  padding-top: 20px;
 }
 
 img {
